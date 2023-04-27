@@ -3,6 +3,8 @@ package com.example.demo.exceptions;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+//ExceptionResponseDto reprezinta obiectul care vrem sa ajunga la frontend in cazul
+//aparitiei unei exceptii
 public class ExceptionResponseDto {
 
     private final String timestamp= ZonedDateTime.now().format(DateTimeFormatter.ISO_OFFSET_DATE_TIME);

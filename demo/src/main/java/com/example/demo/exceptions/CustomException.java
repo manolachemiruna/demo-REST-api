@@ -2,6 +2,9 @@ package com.example.demo.exceptions;
 
 import org.springframework.http.HttpStatus;
 
+//fiind subclasa a lui RuntimeException va avea toate atributele sale
+//la care mai adaugam un HTTP status (CTRL+click pe HttpStatus pentru a vedea fiecare status)
+//
 public class CustomException extends RuntimeException {
 
     private final HttpStatus httpStatus;
